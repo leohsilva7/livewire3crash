@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/bookmarks', \App\Livewire\Bookmarks::class)->name('bookmark_route');
 Route::get('/counter', Counter::class)->name('counter_route');
 Route::get('/birds', BirdForm::class)->name('birds_route');
 Route::get('/lazy', Lazy::class)->name('lazy_route')->lazy();

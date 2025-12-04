@@ -11,8 +11,9 @@
             <a href="{{route('counter_route')}}" wire:navigate>Counter</a>
             <a href="{{route('birds_route')}}" wire:navigate>Bird</a>
             <a href="{{route('lazy_route')}}" wire:navigate>Lazy</a>
+            <a href="{{route('bookmark_route')}}" wire:navigate>Bookmarks</a>
         </nav>
         {{ $slot }}
     </body>
 </html>
- 
+
